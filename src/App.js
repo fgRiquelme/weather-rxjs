@@ -1,4 +1,9 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Provider } from 'react-redux';
+
+import weather from './components/Weather';
+import store from './store';
+import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 
 function App() {
