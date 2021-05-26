@@ -40,7 +40,7 @@ function Weather(props) {
         });
       }),
       catchError((err) => {
-        console.error(err);
+        //   console.error(err);
         return of({ error: true, message: err.message });
       })
     );
